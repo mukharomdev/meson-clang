@@ -21,7 +21,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-
+#include <uv.h>
 extern int thread_process(void);
 
 #endif
